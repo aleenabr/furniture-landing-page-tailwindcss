@@ -13,35 +13,141 @@
       rel="stylesheet"
     />
   </head>
-  <body>
+  <body class="text-base text-[#333]">
     <!--hero section-->
     <section
-      class="bg-slate-100 p-[5rem] min-h-[50dvh] flex flex-col md:flex-row items-center justify-center gap-[2rem] bg-[url(https://www.seekpng.com/png/full/97-976611_white-grid-png-symmetry.png)] bg-contain bg-repeat bg-center"
+      class="bg-slate-100 min-h-[50dvh] bg-[url(https://www.seekpng.com/png/full/97-976611_white-grid-png-symmetry.png)] bg-contain bg-repeat bg-center flex justify-center w-full"
     >
-      <div class="flex flex-col justify-center gap-[.5rem] items-start">
-        <p
-          class="text-xs border border-gray-300 py-1 px-2 rounded-full text-gray-500"
-        >
-          The best Online Furniture Store
-        </p>
-        <h1 class="text-4xl">
-          The Best Selection of
-          <span class="text-pink-700 font-medium">Furniture Online</span>
-        </h1>
-        <p class="text-gray-600 max-w-[30rem]">
-          Online furniture apps simplify home shopping with convenience,
-          variety, and affordability. Browse easily, compare prices.
-        </p>
-        <button
-          class="h-[3rem] w-[13rem] bg-[#333] text-white rounded-[6px] mt-[1rem]"
-        >
-          Download for Andriod
-        </button>
+      <div
+        class="flex flex-col md:flex-row items-center justify-between w-full gap-[2rem] p-[5rem] max-w-[70rem]"
+      >
+        <div class="flex flex-col justify-center gap-[.5rem] items-start">
+          <p
+            class="text-xs border border-gray-300 py-1 px-2 rounded-full text-gray-500"
+          >
+            The best Online Furniture Store
+          </p>
+          <h1 class="text-4xl text-[#333]">
+            The Best Selection of
+            <span class="text-pink-700 font-medium">Furniture Online</span>
+          </h1>
+          <p class="text-gray-600 max-w-[30rem]">
+            Online furniture apps simplify home shopping with convenience,
+            variety, and affordability. Browse easily, compare prices.
+          </p>
+          <button
+            class="h-[3rem] w-[13rem] bg-[#333] text-white rounded-[6px] mt-[1rem]"
+          >
+            Download for Andriod
+          </button>
+        </div>
+        <img
+          class="h-full md:max-h-[40dvh] w-auto"
+          src="https://zoyothemes.com/tailwind/evea/assets/images/furniture.png"
+        />
       </div>
-      <img
-        class="h-full md:max-h-[40dvh] w-auto"
-        src="https://zoyothemes.com/tailwind/evea/assets/images/furniture.png"
-      />
+    </section>
+    <!--2.future payment -->
+    <section class="flex justify-center w-full mt-[-2rem] px-5">
+      <div
+        class="flex flex-col gap-[2rem] max-w-[70rem] w-full p-[5rem] border border-gray-200 rounded-lg bg-white shadow-md"
+      >
+        <div class="flex flex-col md:flex-row gap-2 justify-between w-full">
+          <div class="flex flex-col max-w-[15rem] gap-1">
+            <p class="text-xs font-medium text-pink-700">Future Payment</p>
+            <h1 class="text-2xl font-medium text-[#333]">
+              Experience that grow with your scale.
+            </h1>
+          </div>
+          <p class="max-w-[15rem] text-gray-500">
+            Design a financial operating system that works for your business and
+            streamlined cash flow management
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-5 w-full">
+          <div class="flex flex-col gap-2">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="icon icon-tabler icons-tabler-outline icon-tabler-credit-card-pay size-[1.8rem] stroke-pink-400"
+            >
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <path
+                d="M12 19h-6a3 3 0 0 1 -3 -3v-8a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3v4.5"
+              />
+              <path d="M3 10h18" />
+              <path d="M16 19h6" />
+              <path d="M19 16l3 3l-3 3" />
+              <path d="M7.005 15h.005" />
+              <path d="M11 15h2" />
+            </svg>
+            <h6 class="text-lg">Free transfers</h6>
+
+            <p class="text-gray-500">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. A
+              delectus reiciendis nesciunt pariatur nulla alias beatae ullam.
+              Praesentium quibusdam ullam illo tenetur voluptates.
+            </p>
+          </div>
+          <div class="flex flex-col gap-2">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="icon icon-tabler icons-tabler-outline icon-tabler-building-bank size-[1.8rem] stroke-pink-400"
+            >
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <path d="M3 21l18 0" />
+              <path d="M3 10l18 0" />
+              <path d="M5 6l7 -3l7 3" />
+              <path d="M4 10l0 11" />
+              <path d="M20 10l0 11" />
+              <path d="M8 14l0 3" />
+              <path d="M12 14l0 3" />
+              <path d="M16 14l0 3" />
+            </svg>
+            <h6 class="text-lg">Multiple account</h6>
+
+            <p class="text-gray-500">
+              Quas modi beatae et deleniti pariatur ex tempore quis reiciendis
+              neque voluptas, rem eum eveniet ut, qui autem dolorem eos. Quidem,
+              libero?
+            </p>
+          </div>
+          <div class="flex flex-col gap-2">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="icon icon-tabler icons-tabler-outline icon-tabler-lock size-[1.8rem] stroke-pink-400"
+            >
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <path
+                d="M5 13a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v6a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2v-6z"
+              />
+              <path d="M11 16a1 1 0 1 0 2 0a1 1 0 0 0 -2 0" />
+              <path d="M8 11v-4a4 4 0 1 1 8 0v4" />
+            </svg>
+            <h6 class="text-lg">Unmatched security</h6>
+
+            <p class="text-gray-500">
+              Incidunt cupiditate, quod optio impedit veniam iusto expedita a ab
+              maiores. Necessitatibus dicta debitis eos!
+            </p>
+          </div>
+        </div>
+      </div>
     </section>
   </body>
 </html>
